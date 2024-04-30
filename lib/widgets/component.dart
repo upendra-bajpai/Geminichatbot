@@ -39,7 +39,7 @@ class Textfield extends StatelessWidget {
           borderRadius: BorderRadius.circular(30),
           color: Color.fromARGB(255, 244, 245, 243)),
       child: TextField(
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: Color.fromARGB(255, 11, 1, 29)),
         controller: controller,
         decoration: InputDecoration(
             border: InputBorder.none,

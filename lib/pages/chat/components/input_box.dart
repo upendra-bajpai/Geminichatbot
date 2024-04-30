@@ -46,7 +46,7 @@ class BuildInputBox extends StatelessWidget {
 
                   BlocProvider.of<MessageBloc>(context).add(Pending());
 
-                  textMessages.add(await getBotResponse(message, botUser));
+                  textMessages.add(await getTrunChatResponse(textMessages,message, botUser));
 
                   blocContext.add(DataRecieving());
                 }

@@ -5,7 +5,6 @@ import 'package:chatbot/pages/onboard/login.dart';
 import 'package:chatbot/utils/conts_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:hive_flutter/adapters.dart';
 
 
@@ -17,7 +16,6 @@ void main() async {
   await Hive.openBox(users);
 
   //init gemini
-  Gemini.init(apiKey: APIKEY);
   runApp(const MyApp());
 }
 

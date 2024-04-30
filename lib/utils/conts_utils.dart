@@ -6,5 +6,5 @@ const senderColor = Color.fromARGB(255, 2, 34, 3);
 const users = 'oldChat';
 const white = Colors.white;
 var userID = '1';
-const APIKEY = '';
+const APIKEY = 'AIzaSyCCbDKJho7NOB6yCj3a5TBDqsngkheXnDw';
 
